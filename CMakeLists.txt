@@ -3,4 +3,6 @@ project(Inventario)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(Inventario main.cpp)
+add_executable(Inventario main.cpp
+        Inventory.h
+        Inventory.cpp)
